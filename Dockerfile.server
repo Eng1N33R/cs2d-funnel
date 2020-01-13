@@ -1,0 +1,4 @@
+FROM engin33r/cs2d-server:latest
+COPY lua/base64.lua /cs2d/sys/lua
+COPY lua/json.lua /cs2d/sys/lua
+COPY lua/autorun/xch.lua /cs2d/sys/lua/autorun
